@@ -1,0 +1,36 @@
+header{
+    background-color: aquamarine;
+}
+
+main {
+    background-color: darkgrey;
+}
+
+footer {
+    background-color: lightseagreen;
+}
+
+body {
+    border: 3px solid #ff8800;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+p {
+    margin-left: 35px;
+}
+
+li {
+    margin-left: 35px;
+}
