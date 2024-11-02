@@ -1,4 +1,4 @@
-header, footer {
+header, footer, .twitter, .facebook {
     text-align: center;
 }
 
@@ -8,11 +8,44 @@ header {
 
 footer {
     border-top: 1px solid black;
+    
+}
+
+nav {
+    border-bottom: 1px solid black;
+    padding: 10px;
 }
 
 .menu {
     display: inline;
     padding: 55px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    
+}
+
+.contenido {
+    position: relative;
+    left: 15px;
+}
+
+.noticia1, .noticia2 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+aside {
+    text-align: right;
+    border-left: 1px solid black;
+    margin-left: 110rem;
+    position: relative;
+    right: 15px;
+}
+
+.RRSS {
+    /* float: inline-end; */
+}
+
+.twitter, .facebook {
+    border: 1px solid black;
+    position: relative;
+    left: 15px;
 }
