@@ -2,7 +2,7 @@ header, footer, .twitter, .facebook {
     text-align: center;
 }
 
-header {
+header, .tituloNoticia1, .tituloNoticia2 {
     border-bottom: 1px solid black;
 }
 
@@ -14,17 +14,20 @@ footer {
 nav {
     border-bottom: 1px solid black;
     padding: 10px;
+    
 }
 
 .menu {
     display: inline;
     padding: 55px;
-    
+    border: 1px solid black;
 }
 
 .contenido {
     position: relative;
     left: 15px;
+    margin-top: 20px;
+    margin-right: 450px;
 }
 
 .noticia1, .noticia2 {
