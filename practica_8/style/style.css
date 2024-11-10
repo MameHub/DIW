@@ -1,27 +1,51 @@
-nav {
-    float: left;
-    
+/* Formato genérico de toda la página */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
 }
 
-ul > li {
+/* Agrupamos el menu de forma horizontal y los submenús se mantendrán de forma vertical. */
+.menu > ul > li {
     float: left;
-
 }
 
+/* Le damos formato al menú completo, color de fondo, color de fuente, etc. */
 ul li {
     background-color: #0c9ba0;
     color: #fff;
     display: block;
     border: 1px solid;
     padding: 10px 12px;
+    top: 10px;
 }
 
-nav li ul {
+/* Agrupamos el menú para que no se muestren los submenús. */
+.menu li ul {
     display: none;
     position: absolute;
     min-width: 140px;
 }
 
-nav li:hover > ul {
+/* Mostramos los submenus al pasar el ratón por encima. */
+.menu li:hover > ul {
     display: block;
+}
+
+/* Mostramos el subnivel 2 a la derecha del subnivel 1 */
+.menu ul li ul li {
+    position: relative;
+}
+
+.menu ul li ul li ul {
+    right: -140px;
+    top: 10;
+}
+
+/* le damos formato a la flecha. */
+.menu li .flecha {
+    font-size: 9px;
+    padding-left: 6px;
 }
