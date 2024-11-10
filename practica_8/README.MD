@@ -57,7 +57,7 @@ Para realizar el siguiente menú multinivel, he utilzado el siguiente código HT
 </html>
 ```
 
-Como podemos ver en el código HTML, se utiliza las etiquetas &gtheader&lt, <nav>, <ul> y <li> para crear el menú multinivel, en la etiqueta <header> se crea el menú ya que este forma parté de la cabecera de la página web, en esta insertamos la etiqueta <nav> que contendra el menú con submenús, formando así el multinivel mediante concatenación de listas desordenadas.
+Como podemos ver en el código HTML, se utiliza las etiquetas &lt;header&gt;, <nav>, <ul> y <li> para crear el menú multinivel, en la etiqueta <header> se crea el menú ya que este forma parté de la cabecera de la página web, en esta insertamos la etiqueta <nav> que contendra el menú con submenús, formando así el multinivel mediante concatenación de listas desordenadas.
 
 Para darle formato se ha utilizado el siguiente estilo en css:
 
