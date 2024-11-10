@@ -1,3 +1,27 @@
-body {
-    background-color: aliceblue;
+nav {
+    float: left;
+    
+}
+
+ul > li {
+    float: left;
+
+}
+
+ul li {
+    background-color: #0c9ba0;
+    color: #fff;
+    display: block;
+    border: 1px solid;
+    padding: 10px 12px;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+nav li:hover > ul {
+    display: block;
 }

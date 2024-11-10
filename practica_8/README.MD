@@ -57,12 +57,18 @@ Para realizar el siguiente menú multinivel, he utilzado el siguiente código HT
 </html>
 ```
 
+Como podemos ver en el código HTML, se utiliza las etiquetas <header>, <nav>, <ul> y <li> para crear el menú multinivel, en la etiqueta <header> se crea el menú ya que este forma parté de la cabecera de la página web, en esta insertamos la etiqueta <nav> que contendra el menú con submenús, formando así el multinivel mediante concatenación de listas desordenadas.
+
 Para darle formato se ha utilizado el siguiente estilo en css:
 
 ```css
 
 ```
 
+Mediante el estilo, [las flechas, forma de dar estilos de padre a hijo [padre > hijo], etc[...]]
+
 El resultado final es el siguiente:
 
 ![]()
+
+El código esta disponible en el [repositorio](https://github.com/MameHub/DIW/tree/main/practica_8).
