@@ -1,0 +1,8 @@
+Comprimir .rar/.zip. No olvideis poner vuestro nombre dentro de la etiqueta <title>
+
+Maqueta el mockup del enlace en HTML5 y CSS3 usando los siguientes displays. Hay que realizar 3 versiones. Cada una usando sólo un display. Por tanto, se entregarán 3 o 4 versiones
+
+    inline-block,inline
+    table (opcional)
+    flex
+    grid
