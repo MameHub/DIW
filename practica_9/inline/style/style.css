@@ -1,0 +1,12 @@
+header{
+    text-align: center;
+}
+
+nav{
+    border: 1px solid black;
+}
+
+ul{
+    display: inline-flex;
+    
+}
