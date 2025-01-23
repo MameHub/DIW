@@ -1,0 +1,35 @@
+header > h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    order: 1;
+    flex-basis: 1;
+}
+
+aside {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    flex-basis: 0;
+}
+
+aside > h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    
+}
+
+footer h1:first-child {
+    text-align: center;
+}
+
+footer::second-line {
+    display: flex;
+    order: 1;
+}
