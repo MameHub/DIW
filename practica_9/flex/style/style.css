@@ -2,18 +2,94 @@ header {
     text-align: center;
 }
 
+<<<<<<< HEAD
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+=======
+.container {
+    display: flex;
+    
+}
+
+main {
+    display: flex;
+    flex: 3 0 30px;
+    flex-wrap: wrap;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    justify-content: space-around;
+    flex: 1 0 20px;
+}
+
+aside > h2 {
+    text-align: center;
+}
+
+nav {
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style-type: none;
+>>>>>>> 741184e0c06c8f78d73212e556edbeb6a3247b7e
 }
 
 nav a {
     text-decoration: none;
     color: black;
+<<<<<<< HEAD
     border: 1px solid black;
+=======
+    padding: 10px;
+    text-align: center;
 }
 
-footer h1:first-child {
+article {
+    justify-content: space-between;
+    border: 1px solid black;
+    flex: 1 0 20%;
+    margin: 10px;
+}
+
+.arch {
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 2%;
+}
+
+.dates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.input {
+    
+}
+
+.pub {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 2%;
+}
+
+footer {
+    border-top: 1px solid black;
+>>>>>>> 741184e0c06c8f78d73212e556edbeb6a3247b7e
+}
+
+footer h2:first-child {
     text-align: center;
 }
