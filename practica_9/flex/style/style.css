@@ -87,10 +87,12 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 20px 30px;
 }
 
 .input {
-    
+    flex: 1 1 30%;
+    padding: 5%;
 }
 
 .pub {
@@ -99,10 +101,21 @@ article {
     margin-left: 2%;
 }
 
+.img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img img {
+    width: 50%;
+}
+
 footer {
+    text-align: center;
     border-top: 1px solid black;
 }
 
-footer h2:first-child {
-    text-align: center;
+.foot {
+    display: flex;
+    justify-content: space-between;
 }
