@@ -119,3 +119,15 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.RRSS {
+    display: flex;
+    gap: 50px;
+    padding-right: 2%;
+}
+
+.facebook, .twitter, .linkedin, .github, .youtube  {
+    display: flex;
+    flex-direction: column;
+    
+}
