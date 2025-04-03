@@ -28,26 +28,54 @@ a {
     
 }
 
+main {
+    display: inline-block;
+}
+
 article {
     border: 1px solid black;
 }
 
 aside {
-
+    display: inline-block;
+    width: 27%;
+    vertical-align: top;
 }
 
 .arch {
     border: 1px solid black;
+    
+}
+
+.dates {
+    
 }
 
 .pub {
     border: 1px solid black;
 }
 
+.pub img {
+    width: 49%;
+}
+
 footer {
     text-align: center;
 }
 
-.RRSS {
-    
+.foot h2 {
+    display: inline-block;
+}
+
+.RRSS{
+    display: inline-block;
+}
+
+.facebook {
+    display: inline-block;
+    width: 20%;
+}
+
+footer a {
+    width: 50%;
 }
