@@ -11,7 +11,7 @@ nav {
 
 ul {
     display: grid;
-    grid-template-columns: repeat(5, 20px);
+    grid-template-columns: repeat(5, auto);
     justify-content: space-between;
     margin-left: 1%;
     margin-right: 3%;
@@ -45,7 +45,8 @@ article {
 }
 
 h3 {
-    margin-left: 2%;
+    margin-left: 5%;
+    margin-bottom: 10%;
 }
 
 .arch, .pub {
@@ -53,7 +54,7 @@ h3 {
 }
 
 .arch {
-
+    text-align: center;
 }
 
 .dates {
@@ -62,12 +63,16 @@ h3 {
     margin: 5%;
 }
 
-.pub {
+.input {
+    margin: 10%;
+}
 
+.pub {
+    text-align: center;
 }
 
 img {
-    width: 33%;
+    width: 43%;
 }
 
 footer {
