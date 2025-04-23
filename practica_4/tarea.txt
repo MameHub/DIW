@@ -1,0 +1,10 @@
+Comprime los 2 ficheros html y subelos
+No olvides indicar tu nombre y apellidos en el <title>
+
+Entregar 2 Documentos:
+
+    Usando la Api Canvas para dibujar rectángulos, crea una animación desarrollada por ti. Se valorará la original.
+    Usando la Api Canvas, combina el uso para dibujar rectángulos con caminos desarrollada por ti. Se valorará la original.
+
+Comprime los 2 ficheros html y súbelos
+No olvides indicar tu nombre y apellidos en la etiqueta <title>
