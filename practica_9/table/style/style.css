@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+}
+
+nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul {
+    display: table;
+    
+}
+
+li {
+    border: 1px solid black;
+    list-style: none;
+    display: table-cell;
+    padding: 13px;
+    height: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.arch {
+    border: 1px solid black;
+    display: table;
+}
+
+.arch > h2 {
+    display: table-header-group;
+}
+
+.dates {
+    display: table;
+    margin: 20%;
+}
+
+.pub {
+    border: 1px solid black
+}
+
+
+img {
+    width: 13%;
+}
+
+
+
+footer {
+    border-top: 1px solid black;
+}
+
+footer > h2 {
+    text-align: center;
+}
+
+.foot {
+    display: table;
+}
+
+.RRSS {
+    display: table-row-group;
+}
