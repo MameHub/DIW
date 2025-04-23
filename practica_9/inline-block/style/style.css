@@ -10,7 +10,6 @@ nav {
 
 ul {
     list-style: none;
-    
 }
 
 li {
@@ -24,31 +23,39 @@ a {
     padding: 150px;
 }
 
-.container {
-    
-}
-
 main {
     display: inline-block;
+    width: 70%;
 }
 
 article {
     border: 1px solid black;
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+article h3 {
+    margin-left: 7%;
 }
 
 aside {
     display: inline-block;
     width: 27%;
     vertical-align: top;
+    margin-left: 1%;
 }
 
 .arch {
     border: 1px solid black;
-    
 }
 
-.dates {
-    
+.dates .input {
+    display: inline-block;
+    width: 30%;
+    margin: 6%;
+    margin-left: 13%;
+    margin-top: 7%;
 }
 
 .pub {
@@ -56,24 +63,33 @@ aside {
 }
 
 .pub img {
-    width: 49%;
+    width: 37%;
+    margin-top: 4%;
+    padding: 5%;
 }
 
 footer {
+    border-top: 1px solid black;
     text-align: center;
 }
 
 .foot h2 {
     display: inline-block;
+    margin-right: 53%;
 }
 
 .RRSS{
     display: inline-block;
 }
 
-.facebook {
+.facebook, .twitter, .linkedin, .github, .youtube {
     display: inline-block;
-    width: 20%;
+    width: 10%;
+    margin: 3%;
+}
+
+.facebook a, .twitter a, .linkedin a, .github a, .youtube a {
+    padding: 0px;
 }
 
 footer a {
