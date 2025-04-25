@@ -1,13 +1,36 @@
 header{
-    background-color: aquamarine;
+    background-color: #7fffd4;
+    border: 3px inset #E1289E;
+}
+
+nav {
+    border: 2px dotted black;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 2px dotted black;
 }
 
 main {
-    background-color: darkgrey;
+    background-color: #a9a9a9;
+    border: 3px dashed #693A3A;
 }
 
 footer {
-    background-color: lightseagreen;
+    background-color: #20b2aa;
+    border: 3px inset #5E4030;
 }
 
 body {
