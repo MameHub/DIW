@@ -1,8 +1,8 @@
-<!DOCTYPE html> <!--  -->
-<html lang="es"> <!--  -->
+<!DOCTYPE html> <!-- Definimos el tipo de documento -->
+<html lang="es"> <!-- Definimos el lenguaje del documento -->
 <head> <!-- La etiqueta head contiene información sobre el documento, el contenido de esta etiqueta no se muestra al usuario, unicamente se muestra el contenido de "title" en la pestaña. -->
-    <meta charset="UTF-8"> <!--  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--  -->
+    <meta charset="UTF-8"> <!-- Definimos el mapa de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Le da adaptabilidad a la página -->
     <link rel="stylesheet" href="style/style.css"> <!-- La etiqueta link nos permite enlazar este documento con otro de forma externa o interna, en este caso a un documento css para aplicar estilos al documento. -->
     <title>Álvaro Cañas González</title> <!-- Título de la página web. -->
 </head> 
@@ -54,14 +54,14 @@
                 <li>Esta etiqueta muestra el contenido principal de una página, esta puede aparecer una unica vez en el documento.</li>
             </ul>
 
-            <li>&ltsection&gt</li>
-            <ul>
-                <li>Esta etiqueta permite agrupar contenido por tipo, también nos permite mostrar pequeños fragmentos de información.</li>
-            </ul>
-
             <li>&ltarticle&gt</li>
             <ul>
                 <li>Esta etiqueta representa un fragmento independiente de contenido, esto puede ser un artículo o una entrada de un blog.</li>
+            </ul>
+
+            <li>&ltsection&gt</li>
+            <ul>
+                <li>Esta etiqueta permite agrupar contenido por tipo, también nos permite mostrar pequeños fragmentos de información.</li>
             </ul>
 
             <li>&ltaside&gt</li>
@@ -73,7 +73,6 @@
 
         <h3>Etiquetas multimedia</h3>
         <ul>
-
             
             <li>&ltcanvas&gt</li>
             <ul>
@@ -83,24 +82,18 @@
             <li>&ltvideo&gt</li>
             <ul>
                 <li>Esta etiqueta nos permite insertar un video de forma externa o interna.</li>
+                <li>Ejemplo de forma interna:</li>
+                <video src="video.mp4" width="640" height="360" controls></video>
+
             </ul>
 
-            <ol>
-                <li>De forma interna:</li>
-                <video src="video.mp4" width="640" height="360" controls></video>
-                <li>De forma externa:</li>
-                <video src="https://pixabay.com/videos/gull-bird-snow-plumage-sitting-191159/" width="640" height="360" controls></video>
-            </ol>
             <li>&ltaudio&gt</li>
             <ul>
                 <li>Como en la etiqueta anterior, pero en este caso con un audio.</li>
-            </ul>
-            <ol>
-                <li>De forma interna:</li>
+                <li>Ejemplo de forma interna:</li>
                 <audio src="audio.mp3" controls></audio>
-                <li>De forma externa:</li>
-                <audio src="https://pixabay.com/es/music/clasico-moderno-soulful-piano-serenade-30s-244335/" controls></audio>
-            </ol>
+
+            </ul>
 
             <li>&ltembed&gt</li>
                 <li>Esta etiqueta nos permite insertar contenido externo dentro de un archivo HTML, este puede ser PDF, videos o diferentes fuentes multimedia, entre otros.</li>
@@ -130,9 +123,58 @@
             <ul>
                 <li>Esta <mark>etiqueta</mark> permite resaltar una palabra o un texto.</li>
             </ul>
-        </ul>
 
-        <h3>Etiquetas de ...[documentación(?)]</h3>
+            <li>&ltfigure&gt</li>
+            <ul>
+                <li>Esta etiqueta nos permite ilustrar artículos, fotos, diagramas, ilustraciones, entre otros.</li>
+            </ul>
+
+            <li>&ltfigcaption&gt</li>
+            <ul>
+                <li>El pie o explicación de un elemento <b>figure</b></li>
+            </ul>
+
+            <li>&ltbdi&gt</li>
+            <ul>
+                <li>Esta etiqueta da una definición extra.</li>
+            </ul>
+
+            <li>&ltmenu&gt</li>
+            <ul>
+                <li>Lista de opciones pertenecientes a un menú.</li>
+            </ul>
+
+            <li>&ltcommand&gt</li>
+            <ul>
+                <li>Elemento de un menú de opciones.</li>
+            </ul>
+
+            <li>&ltdetails&gt</li>
+            <ul>
+                <li>Detalles o información suplementaria que se puede ocultar o ver.</li>
+            </ul>
+            
+            <li>&ltsummary&gt</li>
+            <ul>
+                <li>Encabezado para detalles especificados en el elemento <b>details</b></li>
+            </ul>
+
+            <li>&lthgroup&gt</li>
+            <ul>
+                <li>Grupo de encabezamientos, útil para cuando hay diversos bloques de encabezados del mismo nivel H1, H2...</li>
+            </ul>
+
+            <li>&lttime&gt</li>
+            <ul>
+                <li>Elemento para escribir una fecha, una hora o ambas.</li>
+            </ul>
+
+            <li>&ltdialog&gt</li>
+            <ul>
+                <li>Este elemento nos permite representar conversaciones.</li>
+            </ul>
+
+        </ul>
 
         </ul>
 
@@ -142,7 +184,7 @@
             <ul>
                 <li>Esta etiqueta define un formulario HTML</li>
                 <h4>Atrbutos:</h4>
-                <ul>
+                <ol>
                     <li><b>accept</b></li>
                     <ul>
                         <li>Lista separada por comas de los tipos de contenido que el servidor acepta.</li>
@@ -179,7 +221,7 @@
                     <ul>
                         <li>Un keyword indicando donde debe mostrarse la respuesta que es recibida después de enviarse el formulario.</li>
                     </ul>
-                </ul>
+                </ol>
             </ul>
 
             <ul>
@@ -192,7 +234,7 @@
                     <li><b>Type</b></li>
                     <ul>
                         <li>Indica el tipo de campo, cada uno tiene unas características.</li>
-                        <ul>
+                        <ol>
                             <li><b>button</b></li>
                             <ul>
                                 <li>Botón sin un comportamiento especifico.</li>
@@ -245,7 +287,7 @@
                             <ul>
                                 <li>Botón que envia el formulario.</li>
                             </ul>
-                        </ul>
+                        </ol>
                     </ul>
                     <li><b>autofocus</b></li>
                     <ul>
@@ -293,55 +335,35 @@
                     </ul>
                 </ul>
             </ul>
+
+            <li>&ltmeter&gt</li>
+            <ul>
+                <li>Esta etiqueta nos permite trabajar con medidas y escalas.</li>
+            </ul>
+
+            <li>&ltprogress&gt</li>
+            <ul>
+                <li>Esta etiqueta implementa barras de progreso.</li>
+            </ul>
+
+            <li>&ltdatalist&gt</li>
+            <ul>
+                <li>Extensión para crear campos con funcionalidad de autocompletar.</li>
+            </ul>
+
+            <li>&ltkeygen&gt</li>
+            <ul>
+                <li>Genera claves pública y priada para encriptación.</li>
+            </ul>
+
+            <li>&ltoutput&gt</li>
+            <ul>
+                <li>Realiza y muestra cálculos matemáticos.</li>
+            </ul>
             
         <p>&ltmain&gt</p>
 
     </main>
-
-
-    <figure>
-        &ltfigure&gt
-    </figure>
-
-    <figcaption>
-        &ltfigcaption&gt
-    </figcaption>
-
-    <template>
-        &lttemplate&gt
-    </template>
-    
-    <track>&lttrack&gt
-    
-    <progress>
-        &ltprogress&gt
-    </progress>
-    
-    <meter>
-        &ltmeter&gt
-    </meter>
-    
-    <time>
-        &lttime&gt
-    </time>
-    
-    <ruby>
-        &ltruby&gt
-    </ruby>
-    
-    <bdi>
-        &ltbdi&gt
-    </bdi>
-    
-    <datalist>
-        &ltdatalist&gt
-    </datalist>
-    
-    <keygen>&ltkeygen&gt
-    
-    <output>
-        &ltoutput&gt
-    </output>
 
     <footer>
         <p>&ltfooter&gt</p>
