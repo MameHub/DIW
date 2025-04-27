@@ -74,6 +74,12 @@
         <h3>Etiquetas multimedia</h3>
         <ul>
 
+            
+            <li>&ltcanvas&gt</li>
+            <ul>
+                <li>Nos permite dibujar gráficos por pantalla.</li>
+            </ul>
+
             <li>&ltvideo&gt</li>
             <ul>
                 <li>Esta etiqueta nos permite insertar un video de forma externa o interna.</li>
@@ -95,6 +101,21 @@
                 <li>De forma externa:</li>
                 <audio src="https://pixabay.com/es/music/clasico-moderno-soulful-piano-serenade-30s-244335/" controls></audio>
             </ol>
+
+            <li>&ltembed&gt</li>
+                <li>Esta etiqueta nos permite insertar contenido externo dentro de un archivo HTML, este puede ser PDF, videos o diferentes fuentes multimedia, entre otros.</li>
+                <li><embed src="https://www.brandominus.com/manuales/manual_html5.pdf" type="application/pdf" width="520" height="640"/></li>
+
+            <li>&ltsource&gt</li>
+            <ul>
+                <li>Especifica recursos de medios múltiples para elementos &ltpicture&gt, &ltaudio&gt o &ltvideo&gt.</li>
+            </ul>
+
+            <li>&lttrack&gt</li>
+            <ul>
+                <li>Este elemento se utiliza como elemento hijo de los elementos multimedia &ltaudio&gt y &ltvideo&gt.</li>
+            </ul>
+
         </ul>
 
         <h3>Etiquetas de formato</h3>
@@ -113,13 +134,166 @@
 
         <h3>Etiquetas de ...[documentación(?)]</h3>
 
-            <li>&ltembed&gt</li>
-            <ul>
-                <li>Esta etiqueta nos permite insertar contenido externo dentro de un archivo HTML, este puede ser PDF, videos o diferentes fuentes multimedia, entre otros.</li>
-                <li><embed src="https://www.brandominus.com/manuales/manual_html5.pdf" type="application/pdf" width="520" height="640"/></li>
-
         </ul>
 
+        <h3>Etiquetas de formulario</h3>
+
+            <li>&ltform&gt</li>
+            <ul>
+                <li>Esta etiqueta define un formulario HTML</li>
+                <h4>Atrbutos:</h4>
+                <ul>
+                    <li><b>accept</b></li>
+                    <ul>
+                        <li>Lista separada por comas de los tipos de contenido que el servidor acepta.</li>
+                    </ul>
+                    <li><b>accept-charset</b></li>
+                    <ul>
+                        <li>Lista de codificación de caracteres que el servidor acepta.</li>
+                    </ul>
+                    <li><b>action</b></li>
+                    <ul>
+                        <li>La URI que procesa la información enviada por el fomulario.</li>
+                    </ul>
+                    <li><b>autocomplete</b></li>
+                    <ul>
+                        <li>Indica si se pueden rellenar automáticamente valores de forma predeterminada.</li>
+                    </ul>
+                    <li><b>enctype</b></li>
+                    <ul>
+                        <li>Cuando el valor del atributo <b>method</b> es <i>post</i>, este atributo es el tipo MIME del contenido que es usado para enviar el formulario al servidor.</li>
+                    </ul>
+                    <li><b>method</b></li>
+                    <ul>
+                        <li>El método HTTP que utiliza el navegador para enviar el formulario.</li>
+                    </ul>
+                    <li><b>name</b></li>
+                    <ul>
+                        <li>El nombre del formulario.</li>
+                    </ul>
+                    <li><b>novalidate</b></li>
+                    <ul>
+                        <li>Este atributo de tipo booleano indica que el formulario no será validado en el envio.</li>
+                    </ul>
+                    <li><b>target</b></li>
+                    <ul>
+                        <li>Un keyword indicando donde debe mostrarse la respuesta que es recibida después de enviarse el formulario.</li>
+                    </ul>
+                </ul>
+            </ul>
+
+            <ul>
+                <li>&ltinput&gt</li>
+                <ul>
+                    <li>Esta etiqueta nos permite crear controles interactivos para el formulario que nos permite recibir los datos del usuario.</li>
+                </ul>
+                <h4>Atributos:</h4>
+                <ul>
+                    <li><b>Type</b></li>
+                    <ul>
+                        <li>Indica el tipo de campo, cada uno tiene unas características.</li>
+                        <ul>
+                            <li><b>button</b></li>
+                            <ul>
+                                <li>Botón sin un comportamiento especifico.</li>
+                            </ul>
+                            <li><b>checkbox</b></li>
+                            <ul>
+                                <li>Casilla de selección, se debe utilizar el atributo <b>value</b> para definir el valor que se enviará por este.</li>
+                            </ul>
+                            <li><b>date</b></li>
+                            <ul>
+                                <li>Control para introducir una fecha (año, mes y dia, sin tiempo).</li>
+                            </ul>
+                            <li><b>email</b></li>
+                            <ul>
+                                <li>Campo para introducir una dirección de correo electrónico.</li>
+                            </ul>
+                            <li><b>file</b></li>
+                            <ul>
+                                <li>Campo que permite al usuario seleccionar un archivo.</li>
+                            </ul>
+                            <li><b>hidden</b></li>
+                            <ul>
+                                <li>Campo no mostrado al usuario pero cuyo valor es enviado al servidor.</li>
+                            </ul>
+                            <li><b>number</b></li>
+                            <ul>
+                                <li>Campo para introducir un número de punto flotante.</li>
+                            </ul>
+                            <li><b>password</b></li>
+                            <ul>
+                                <li>Campo que permanece oculto.</li>
+                            </ul>
+                            <li><b>radio</b></li>
+                            <ul>
+                                <li>Se debe usar el atributo <b>value</b> para definir el valor que se envia con el elemento.</li>
+                            </ul>
+                            <li><b>tel</b></li>
+                            <ul>
+                                <li>Campo para introducir un número de telefono, este elimina automáticamente los salto de línea.</li>
+                            </ul>
+                            <li><b>text</b></li>
+                            <ul>
+                                <li>Campo de texto de línea simple.</li>
+                            </ul>
+                            <li><b>reset</b></li>
+                            <ul>
+                                <li>Botón que restaura los contenido de un formulario a sus valores predeterminados.</li>
+                            </ul>
+                            <li><b>submit</b></li>
+                            <ul>
+                                <li>Botón que envia el formulario.</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                    <li><b>autofocus</b></li>
+                    <ul>
+                        <li>Este atributo booleano permite especificar que un control del formulario tenga el cursor cuando la página se cargue.</li>
+                    </ul>
+                    <li><b>checked</b></li>
+                    <ul>
+                        <li>Si el valor del atributo <b>type</b> es <i>radio</i> o <i>checkbox</i> la presencia de esta atributo booleano indica que esta seleccionado.</li>
+                    </ul>
+                    <li><b>disabled</b></li>
+                    <ul>
+                        <li>Este atributo booleano indica que el control no esta listao para la interacción.</li>
+                    </ul>
+                    <li><b>max</b></li>
+                    <ul>
+                        <li>El valor máximo para este elemento (numérico o fecha-hora).</li>
+                    </ul>
+                    <li><b>maxlength</b></li>
+                    <ul>
+                        <li>Si el valor del atribto <b>type</b> es <i>text</i>, <i>email</i>, <i>search</i>, <i>password</i>, <i>tel</i> o <i>url</i>, este atributo especifica el número máximo de caracteres que el usuario puede introducir.</li>
+                    </ul>
+                    <li><b>name</b></li>
+                    <ul>
+                        <li>El nombre del campo, este es enviado con los datos del formulario.</li>
+                    </ul>
+                    <li><b>pattern</b></li>
+                    <ul>
+                        <li>Una expresión regular con la que el valor se esta evaluando.</li>
+                    </ul>
+                    <li><b>placeholder</b></li>
+                    <ul>
+                        <li>Información dentro del campo para el usuario.</li>
+                    </ul>
+                    <li><b>readonly</b></li>
+                    <ul>
+                        <li>Este atributo indica que el usuario no puede modificar el valor del campo.</li>
+                    </ul>
+                    <li><b>required</b></li>
+                    <ul>
+                        <li>Este atributo le especifica al usuario que el campo debe de rellenarse obligatoriamente.</li>
+                    </ul>
+                    <li><b>size</b></li>
+                    <ul>
+                        <li>El tamaño inicial del campo.</li>
+                    </ul>
+                </ul>
+            </ul>
+            
         <p>&ltmain&gt</p>
 
     </main>
@@ -158,10 +332,6 @@
     <bdi>
         &ltbdi&gt
     </bdi>
-    
-    <canvas>
-        &ltcanvas&gt
-    </canvas>
     
     <datalist>
         &ltdatalist&gt
