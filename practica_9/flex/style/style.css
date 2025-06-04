@@ -128,5 +128,4 @@ footer {
 .facebook, .twitter, .linkedin, .github, .youtube  {
     display: flex;
     flex-direction: column;
-    
 }
