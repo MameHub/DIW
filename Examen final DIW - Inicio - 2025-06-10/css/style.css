@@ -9,15 +9,34 @@
     --Secondary-Text-Color: #FFFFFF;
 }
 
-body {
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular-webfont.ttf') format('ttf'),
+    url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+    url('../fonts/Roboto-Regular-webfont.svg') format('svg'),
+    url('../fonts/Roboto-Regular-webfont.eot') format('eot');
+    font-style: normal;
+    font-weight: normal;
+}
 
+body {
+    
 }
 
 header {
 
 }
 
+.head {
+    background-image: url(../img/fondo.jpg);
+}
+
 .title {
+    text-align: center;
+    color: var(--Primary-color);
+}
+
+.rrss {
 
 }
 
@@ -25,22 +44,29 @@ nav {
     background-color: var(--Primary-color);
 }
 
-@media screen and (min-width:830px) {
+@media screen and (max-width:830px) {
     ul {
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    li {
+        align-self: center;
+    }
+
+    article > i {
+        display: none;
     }
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
     justify-content: left;
     padding: 0px 50px;
 }
 
 li {
-    align-self: center;
+    
 }
 
 li > a {
@@ -53,11 +79,27 @@ main {
 
 }
 
+section {
+
+}
+
+article {
+    box-shadow: 0px 3px rgb(224, 224, 224);
+}
+
+article > h2 {
+    color: var(--Primary-color);
+}
+
 aside {
 
 }
 
+aside h2 {
+    color: var(--Secondary-Color);
+}
+
 footer {
-    
+    box-shadow: 0px 2px rgb(224, 224, 224);
     padding: 0px 20px;
 }
