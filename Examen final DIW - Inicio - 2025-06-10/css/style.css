@@ -1,0 +1,63 @@
+:root {
+    --Primary-color: #F57C00;
+    --Primary-Light-Color: #FFAD42;
+    --Primary-Dark-Color: #BB4D00;
+    --Secondary-Color: #0097A7;
+    --Secondary-Light-Color: #56C8D8;
+    --Secondary-Dark-Color: #006978;
+    --Primary-Text-Color: #000000;
+    --Secondary-Text-Color: #FFFFFF;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+.title {
+
+}
+
+nav {
+    background-color: var(--Primary-color);
+}
+
+@media screen and (min-width:830px) {
+    ul {
+        flex-direction: row;
+    }
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0px 50px;
+}
+
+li {
+    align-self: center;
+}
+
+li > a {
+    color: var(--Secondary-Text-Color);
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+main {
+
+}
+
+aside {
+
+}
+
+footer {
+    
+    padding: 0px 20px;
+}
